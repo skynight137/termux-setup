@@ -64,10 +64,15 @@ git clone --depth=1 --filter=blob:none https://github.com/marlonrichert/zsh-auto
 ```
 curl https://raw.githubusercontent.com/skynight137/Termux-Setup/refs/heads/main/.p10k.zsh -o .p10k.zsh
 curl https://raw.githubusercontent.com/skynight137/Termux-Setup/refs/heads/main/.zshrc -o .zshrc
-exit
 ```
 
-## Login Ubuntu
+## Install Uv package manager (Optional)
 ```
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+## Re-Log Ubuntu
+```
+exit
 proot-distro login ubuntu
 ```
